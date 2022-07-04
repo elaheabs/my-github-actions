@@ -1,5 +1,5 @@
 {
-    "prerelease": false,
+    "prerelease": true,
     "packages": {
       "path/to/pkg": {}
     }
