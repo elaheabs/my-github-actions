@@ -1,0 +1,6 @@
+{
+    "prerelease": false,
+    "packages": {
+      "path/to/pkg": {}
+    }
+  }
