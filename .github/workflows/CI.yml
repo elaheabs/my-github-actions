@@ -2,12 +2,12 @@ on:
   push:
     branches:
       - main
-name: release-please
+name: semantic-release
 jobs:
   semantic-release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
