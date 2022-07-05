@@ -12,5 +12,4 @@ jobs:
         with:
           node-version: "12.x"
       - run: echo something
-      - env: 
-         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
