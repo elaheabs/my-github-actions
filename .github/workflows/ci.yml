@@ -11,5 +11,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-      - run: echo something
+      - env: 
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+         name: make a release
+         run: npx semantic-release
 
