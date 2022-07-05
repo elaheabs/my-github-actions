@@ -16,5 +16,5 @@ jobs:
       - env: 
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         name: make a release
-        run: npx semantic-release --branches main --dry-run
+        run: npx semantic-release --branches main 
 
