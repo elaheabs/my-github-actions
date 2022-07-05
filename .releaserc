@@ -1,4 +1,8 @@
 {
+"repository":{
+        "type":"git",
+        "url":"git@github.com:elaheabs/my-github-actions.git"
+      },
 "release": {
     "analyzeCommits": "@semantic-release/commit-analyzer",
     "verifyConditions": "@semantic-release/npm",
