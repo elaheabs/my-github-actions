@@ -1,8 +1,4 @@
 {
-"repository":{
-        "type":"git",
-        "url":"git@github.com:elaheabs/my-github-actions.git"
-      },
 "plugins":[
   "@semantic-release/commit-analyzer",
   "@semantic-release/release-notes-generator",
