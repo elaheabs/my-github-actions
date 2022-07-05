@@ -11,6 +11,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "16.x"
+      - name: Install the packages
+        run: npm install
       - env: 
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         name: make a release
