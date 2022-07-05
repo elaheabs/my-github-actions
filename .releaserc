@@ -10,6 +10,7 @@
       "changelogFile": "docs/CHANGELOG.md"
     }
   ],
+  "@semantic-release/github",
   [
     "@semantic-release/git",
     {
