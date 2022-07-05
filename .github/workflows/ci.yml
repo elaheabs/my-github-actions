@@ -13,6 +13,6 @@ jobs:
           node-version: "12.x"
       - env: 
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-         name: make a release
-         run: npx semantic-release
+      - name: make a release
+        run: npx semantic-release
 
