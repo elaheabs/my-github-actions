@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/elaheabs/my-github-actions/compare/v1.1.0...v1.1.1) (2022-07-11)
+
+
+### Bug Fixes
+
+* uninstalled some packages ([a471444](https://github.com/elaheabs/my-github-actions/commit/a4714441f3c96f8ab3f0e200dda299dec4a196c6))
+
 # [1.1.0](https://github.com/elaheabs/my-github-actions/compare/v1.0.18...v1.1.0) (2022-07-11)
 
 
