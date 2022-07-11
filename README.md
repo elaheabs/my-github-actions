@@ -1,2 +1,2 @@
 # my-github-actions
-Just a sampl project to test github actions35
+Just a sampl project to test github actions36
