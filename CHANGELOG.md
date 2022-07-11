@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/elaheabs/my-github-actions/compare/v1.0.18...v1.1.0) (2022-07-11)
+
+
+### Bug Fixes
+
+* edited read me ([6f316c4](https://github.com/elaheabs/my-github-actions/commit/6f316c43a9c50ebb036fd5b2adc4891131d5048b))
+
+
+### Features
+
+* add ! to index.js ([2998708](https://github.com/elaheabs/my-github-actions/commit/2998708e94c56f031f356706d4c4700747d079e3))
+
 ## [1.0.18](https://github.com/elaheabs/my-github-actions/compare/v1.0.17...v1.0.18) (2022-07-11)
 
 
