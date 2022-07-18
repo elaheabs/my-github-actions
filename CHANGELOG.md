@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/elaheabs/my-github-actions/compare/v1.1.1...v1.1.2) (2022-07-11)
+
+
+### Bug Fixes
+
+* added another comment to test ([7484a68](https://github.com/elaheabs/my-github-actions/commit/7484a68c68576dd124c307c3207f1e54c57d0699))
+
 ## [1.1.1](https://github.com/elaheabs/my-github-actions/compare/v1.1.0...v1.1.1) (2022-07-11)
 
 
