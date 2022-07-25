@@ -1,3 +1,13 @@
+## [1.1.3](https://github.com/elaheabs/my-github-actions/compare/v1.1.2...v1.1.3) (2022-07-25)
+
+
+### Bug Fixes
+
+* addedrelease command ([c1518b2](https://github.com/elaheabs/my-github-actions/commit/c1518b22c204007580e6894350ba24c8d589abf7))
+* july 18 changes ([f673855](https://github.com/elaheabs/my-github-actions/commit/f673855d346981f813a1f514c31a120ebd6c2cb8))
+* test12345 ([7552ff8](https://github.com/elaheabs/my-github-actions/commit/7552ff87c65226d9c62f6d6ddc4cacdc8111794c))
+* testing deployment ([14453e7](https://github.com/elaheabs/my-github-actions/commit/14453e76cc16fa1a52d4a81154ced40bb091ea8c))
+
 ## [1.1.2](https://github.com/elaheabs/my-github-actions/compare/v1.1.1...v1.1.2) (2022-07-11)
 
 
