@@ -1,8 +1,8 @@
 on:
   release:
     types:
-      - released
-name: semantic-release
+      - published
+name: deploy to nowhere
 jobs:
   deployment:
     runs-on: ubuntu-latest
