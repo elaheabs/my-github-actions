@@ -19,6 +19,6 @@ jobs:
       - env: 
          GITHUB_TOKEN: ${{ secrets.SEMANTIC_TOKEN }}
         name: make a release
-        run: echo ${{ secrets.SEMANTIC_TOKEN }}
+        run: npx semantic-release
      
 
