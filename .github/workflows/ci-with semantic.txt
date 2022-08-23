@@ -1,0 +1,24 @@
+on:
+  push:
+    branches:
+      - main
+name: semantic-release
+jobs:
+  make-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "16.x"
+      - name: Install the packages
+        run: npm install
+      - name: Prepare artifact
+        run: |
+          zip dist.zip dist/*
+      - env: 
+         GITHUB_TOKEN: ${{ secrets.SEMANTIC_TOKEN }}
+        name: make a release
+        run: npx semantic-release
+     
+
