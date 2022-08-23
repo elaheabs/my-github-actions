@@ -15,7 +15,7 @@ jobs:
       - name: Generate Artifact
         run: |
          rm -rf dist && mkdir dist
-         zip dist.zip -r ./dist/*
+         zip -r dist.zip . -i ./dist/*
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:
