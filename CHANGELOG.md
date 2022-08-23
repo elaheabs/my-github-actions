@@ -1,3 +1,12 @@
+## [1.1.8](https://github.com/elaheabs/my-github-actions/compare/v1.1.7...v1.1.8) (2022-07-25)
+
+
+### Bug Fixes
+
+* round 11 ([5d58a61](https://github.com/elaheabs/my-github-actions/commit/5d58a614e8c3d18e6957cb48f056642578ae9dd7))
+* round 6 ([2e7034d](https://github.com/elaheabs/my-github-actions/commit/2e7034d8fc41ed9472ba48b654ca45d17b526599))
+* round5 ([03ca969](https://github.com/elaheabs/my-github-actions/commit/03ca969e296830ccd0944d3369f3d9faef5843f4))
+
 ## [1.1.6](https://github.com/elaheabs/my-github-actions/compare/v1.1.5...v1.1.6) (2022-07-25)
 
 
