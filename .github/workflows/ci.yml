@@ -12,6 +12,16 @@ jobs:
   dep2:
     runs-on: ubuntu-latest
     steps:
+      - name: Generate Artifact
+        run: |
+         rm -rf dist && mkdir dist
+         zip dist.zip -r ./dist/*
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: package
+          path: |
+            ./dist
       - name: Run succeed script
         run: echo "dep2 succeed"
   job:
@@ -19,6 +29,14 @@ jobs:
     if: ${{ needs.dep2.result == 'success' }}
     needs: [dep2]
     steps:
+      - name: download Artifact
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          branch: main
+          name: package
+          path: ./dist
+          workflow: ci.yml
+          workflow_conclusion: success
       - name: Hello World         
         run: |
           echo "this job is run hehe"
