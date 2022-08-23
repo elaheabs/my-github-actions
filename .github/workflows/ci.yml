@@ -17,7 +17,7 @@ jobs:
   job:
     runs-on: ubuntu-latest
     if: ${{ needs.dep2.result == 'success' }}
-    needs: [dep1]
+    needs: [dep2]
     steps:
       - name: Hello World         
         run: |
