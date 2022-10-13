@@ -31,6 +31,6 @@ jobs:
         run: |
           make clean
     
-name: Manual Test
+name: artifact-ci
 "on":
   workflow_dispatch: {}
