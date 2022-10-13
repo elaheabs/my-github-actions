@@ -9,7 +9,7 @@ jobs:
           repo: elaheabs/my-github-actions
           target: release.zip
     
-name: Manual Test
+name: Artifact-cd
 "on":
   workflow_dispatch: {}
 
