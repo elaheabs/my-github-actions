@@ -13,17 +13,7 @@ jobs:
       - name: Install dep
         run: |
           yarn install --dev
-      - name: Generate Artifact
-        run: |
-         npm run build
-         npm run package
-    
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: package
-          path: |
-            ./dist
+
  Release:
     if: ${{ needs.Build.result == 'success' }}
     needs:
@@ -37,13 +27,11 @@ jobs:
         with:
           node-version: 16.x
           registry-url: https://npm.pkg.github.com
-      - uses: dawidd6/action-download-artifact@v2
-        with:
-          branch: main
-          name: package
-          path: ./dist
-          workflow: artifact.yml
-          workflow_conclusion: success     
+      - name: Generate Asset
+        run: |
+         npm run build
+         npm run package
+     
       - name: Install dep
         run: |
           yarn install --dev
