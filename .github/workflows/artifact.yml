@@ -15,8 +15,8 @@ jobs:
           yarn install --dev
       - name: Generate Artifact
         run: |
-         rm -rf dist && mkdir dist
-         zip -r dist.zip . -r ./dist/*
+         npm run build
+         npm run package
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:

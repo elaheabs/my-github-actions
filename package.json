@@ -4,9 +4,11 @@
   "description": "github actions",
   "main": "index.js",
   "scripts": {
+    "clean:dist": "rm -rf dist && mkdir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo build",
-    "release": "npm run semantic-release"
+    "build": "yarn clean:dist && ncc build index.js -o dist",
+    "release": "npm run semantic-release",
+    "package": "zip dist.zip -r ./dist"
   },
   "repository": {
     "type": "git",
@@ -19,11 +21,13 @@
   },
   "homepage": "https://github.com/elaheabs/my-github-actions#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "save": "^2.9.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
+    "@vercel/ncc": "^0.34.0",
     "semantic-release": "^19.0.3"
   }
 }
