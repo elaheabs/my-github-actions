@@ -13,10 +13,6 @@ jobs:
       - name: Install dep
         run: |
           yarn install --dev
-      - name: Generate Artifact
-        run: |
-         npm run build
-         npm run package
       - name: Create Build Artifact (test)
         run: |
           make create-package
