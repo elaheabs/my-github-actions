@@ -1,3 +1,15 @@
+## [1.1.9](https://github.com/elaheabs/my-github-actions/compare/v1.1.8...v1.1.9) (2022-10-13)
+
+
+### Bug Fixes
+
+* a new one ([d3016b2](https://github.com/elaheabs/my-github-actions/commit/d3016b2c13baed028b58e6bc1e8793921471b079))
+* changed a name ([4894272](https://github.com/elaheabs/my-github-actions/commit/48942722d646566e7f562483aad88ea8c32dd587))
+* changed a name again ([b8afc4a](https://github.com/elaheabs/my-github-actions/commit/b8afc4abd273b4decabed7a35d250d62ddc9e042))
+* changed some stuff ([dff4a5b](https://github.com/elaheabs/my-github-actions/commit/dff4a5b0600263908cedb8cdb9376a89d391ba6e))
+* testing artifacts ([6c9b037](https://github.com/elaheabs/my-github-actions/commit/6c9b03756d8af8f42af1ae8e576bbc2593984c51))
+* tried dependencies in github jobs ([35ecd8c](https://github.com/elaheabs/my-github-actions/commit/35ecd8caffc35bbcebee7f30f98753de0780a62e))
+
 ## [1.1.8](https://github.com/elaheabs/my-github-actions/compare/v1.1.7...v1.1.8) (2022-07-25)
 
 
