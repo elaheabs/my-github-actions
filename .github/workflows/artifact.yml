@@ -27,14 +27,15 @@ jobs:
         with:
           node-version: 16.x
           registry-url: https://npm.pkg.github.com
-      - name: Generate Asset
-        run: |
-         npm run build
-         npm run package
+
      
       - name: Install dep
         run: |
           yarn install --dev
+      - name: Generate Asset
+        run: |
+         npm run build
+         npm run package
       - env: 
          GITHUB_TOKEN: ${{ secrets.SEMANTIC_TOKEN }}
         name: make a release
