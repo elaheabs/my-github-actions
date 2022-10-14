@@ -1,3 +1,10 @@
+## [1.1.22](https://github.com/elaheabs/my-github-actions/compare/v1.1.21...v1.1.22) (2022-10-14)
+
+
+### Bug Fixes
+
+* baba test ([184dbb8](https://github.com/elaheabs/my-github-actions/commit/184dbb8b64c4ffed1782e4f470e3b678b4dbbf12))
+
 ## [1.1.21](https://github.com/elaheabs/my-github-actions/compare/v1.1.20...v1.1.21) (2022-10-14)
 
 
