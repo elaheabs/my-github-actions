@@ -51,9 +51,10 @@ jobs:
       - name: Install dep
         run: |
           yarn install --dev
-      - name: Bump tag and make release
-        run: |
-          npm run release
+      - env: 
+         GITHUB_TOKEN: ${{ secrets.SEMANTIC_TOKEN }}
+        name: make a release
+        run: npx semantic-release  
 name: artifact-ci
 "on":
   workflow_dispatch: {}
