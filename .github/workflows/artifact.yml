@@ -24,10 +24,6 @@ jobs:
           name: package
           path: |
             ./dist
-      - env: 
-         GITHUB_TOKEN: ${{ secrets.SEMANTIC_TOKEN }}
-        name: make a release
-        run: npx semantic-release   
  Release:
     if: ${{ needs.Build.result == 'success' }}
     needs:
