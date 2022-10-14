@@ -17,6 +17,9 @@ jobs:
         run: |
          npm run build
          npm run package
+      - name: Create Build Artifact (test)
+        run: |
+          make create-package
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:
