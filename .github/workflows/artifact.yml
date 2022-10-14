@@ -28,7 +28,32 @@ jobs:
          GITHUB_TOKEN: ${{ secrets.SEMANTIC_TOKEN }}
         name: make a release
         run: npx semantic-release   
-    
+ Release:
+    if: ${{ needs.Build.result == 'success' }}
+    needs:
+      - Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+          registry-url: https://npm.pkg.github.com
+      - uses: dawidd6/action-download-artifact@v2
+        with:
+          branch: main
+          name: package
+          path: ./dist
+          workflow: artifact.yml
+          workflow_conclusion: success     
+      - name: Install dep
+        run: |
+          yarn install --dev
+      - name: Bump tag and make release
+        run: |
+          npm run release
 name: artifact-ci
 "on":
   workflow_dispatch: {}
