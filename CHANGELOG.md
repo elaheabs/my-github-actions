@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/elaheabs/my-github-actions/compare/v1.1.10...v1.1.11) (2022-10-14)
+
+
+### Bug Fixes
+
+* test1 ([9b95f7f](https://github.com/elaheabs/my-github-actions/commit/9b95f7f30b2888ee2d8750f6bdac896c4e00daad))
+
 ## [1.1.10](https://github.com/elaheabs/my-github-actions/compare/v1.1.9...v1.1.10) (2022-10-14)
 
 
