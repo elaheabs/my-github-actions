@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "yarn clean:dist && ncc build index.js -o dist",
     "release": "npm run semantic-release",
-    "package": "zip dist.zip -r ./dist"
+    "package": "zip package.zip -r ./dist"
   },
   "repository": {
     "type": "git",
