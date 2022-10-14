@@ -26,10 +26,7 @@ jobs:
       - env: 
          GITHUB_TOKEN: ${{ secrets.SEMANTIC_TOKEN }}
         name: make a release
-        run: npx semantic-release
-      - name: Clean
-        run: |
-          make clean
+        run: npx semantic-release   
     
 name: artifact-ci
 "on":
